@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script
+      src="https://kit.fontawesome.com/58789452ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body class="homepage">
+    <header class="nav-bar" id="nav-bar"> 
+      <div class="intro-part">
+        <button class="mobile" onclick="openMobileMenu()">
+          <img class="toggl" src="./image/mobile_menu.png" alt="menu icon">
+        </button>
+        </div>
+        <div class="desktop">
+          <div class="top-nav">
+            <ul class="toplist">
+              <li>
+                <a href="#">
+                  <img class="top-item navimg" src="./image/facebook.jpg" alt="facebook icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/QueenJumah">
+                  <img class="top-item navimg" src="./image/twiter.webp" alt="twitter icon">
+                </a>
+              </li>
+              <li class="top-item">English</li>
+              <li class="top-item">Mypage</li>
+              <li class="top-item">Logout</li>
+            </ul>
+          </div>
+
+          <div class="navdesktop">
+            <div class="logo">
+              <a href="index.html"><img class = "logo-img" src="./image/mylogo.png" alt="the royal dev logo"/></a>
+            </div>
+            <nav class="navigation">
+              <ul class="navigation-item">
+                <li class="nav-item"><a class="sub-item" href="about.html">About</a></li>
+                <li class="nav-item"><a class="sub-item" href="#Program">Program</a></li>
+                <li class="nav-item"><a class="sub-item" href="#Join">Join</a></li>
+                <li class="nav-item"><a class="sub-item" href="#Sponsor">Sponsor</a></li>
+                <li class="nav-item"><a class="sub-item" href="#News">News</a></li>
+              </ul>
+              <a href="home.html"><button class="nav-works">@TRIC</button></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--popup-->
+      <nav class="navmobile" id="navmobile">
+        <div class="btn-wrapper">
+            <button class="close-btn" onclick="closeMobileMenu()">
+              <img src="./image/close_mobile_menu.png" alt="closebtn">
+            </button>
+        </div>
+        <div class="logo" onclick="closeMobileMenu()">
+          <a href="home.html"><img class = "logo-img mobilelog" src="./image/mylogo.png" alt="the royal dev logo"/></a>
+        </div>
+        <ul class="navigation-item">
+          <li class="nav-mobile" onclick="closeMobileMenu()"><a class="mobile-item" href="about.html">About</a></li>
+          <li class="nav-mobile" onclick="closeMobileMenu()"><a class="mobile-item" href="#Program">Program</a></li>
+          <li class="nav-mobile" onclick="closeMobileMenu()"><a class="mobile-item" href="#Join">Join</a></li>
+          <li class="nav-mobile" onclick="closeMobileMenu()"><a class="mobile-item" href="#Sponsor">Sponsor</a></li>
+          <li class="nav-mobile" onclick="closeMobileMenu()"><a class="mobile-item" href="#News">News</a></li>
+        </ul>
+        <button class="nav-works nav-mobile" onclick="closeMobileMenu()"> @TRIC</button>
+      </nav>
+          <!--popup ends-->
+      <div class="intro-content">
+        <div class="intro-tittle">
+          <h1 class="intro1">"@The Royal Innovation Center Delivered To You!!"</h1>
+          <h2 class="intro2">
+            A NEW ERA OF CORPORATE VALUE CHAIN INNOVATION AND R&D LEADERS LIVEWORX 2023
+          </h2>
+        </div>
+        <div class="text-summary">
+          <p class="intro-text">
+            @THE ROYAL INNOVATION CENTER LiveWorx 2023 will bring together thousands
+            of corporate leaders across the innovation value chain in Kenya for four days to strengthen
+            the connections and fuel the conversations that contribute to a thriving ecosystem. From
+            ideation to commercialization- we'll tackle the new art of serious innovation.
+          </p>
+        </div>
+        <div class="vedate">
+          <h4 class="date">2023.03.08(WED)~11(SAT)</h4>
+          <p class="venue">
+            @ The Kenyatta International Convention Centre(KICC), Nairobi-Kenya
+          </p>
+        </div>
+      </div>
+     
+    </header>
+
+    <main class="main">
+      <!--Main Program -->
+      <section class="program">
+        <div class="program-info">
+          <div class="pro-heading">
+            <h3 class="pro-text">Main Program</h3>
+            <div class="underline-orange"></div>
+            <hr class="line" />
+          </div>
+          <div class="procard">
+            <div class="program-container">
+              <div class="left-text">
+                <img class="leficon" src="./image/program_icon_01.png" alt="lecture icon" />
+                <p class="leftext">The New Business Model</p>
+              </div>
+              <div class="right-text">
+                <p class="rightext">
+                  It will be characterized by the interdependence, rather
+                  than independence, of its parts, while insuring 
+                  that each part of the firm is a contributor to value.
+                </p>
+              </div>
+            </div>
+            <div class="program-container">
+              <div class="left-text">
+                <img class="leficon" src="./image/program_icon_02.png" alt="program icon" />
+                <p class="leftext">Open Innovation & Next-Gen Partnering</p>
+              </div>
+              <div class="right-text">
+                <p class="rightext">
+                  You will learn more on a practice of businesses that actively
+                  share knowledge and looking for ideas from both internal and external sources.
+                </p>
+              </div>
+            </div>
+            <div class="program-container">
+              <div class="left-text">
+                <img class="leficon" src="./image/program_icon_01.png" alt="lecture icon" />
+                <p class="leftext">The New Product Innovation</p>
+              </div>
+              <div class="right-text">
+                <p class="rightext">
+                  You will learn the art of creating or improving the products in a
+                  way that tries to solve problems for consumers and companies or society at large
+                </p>
+              </div>
+           </div>
+           <div class="program-container design">
+              <div class="left-text">
+                <img class="leficon" src="./image/program_icon_04.png" alt="Workshop icon" />
+                <p class="leftext">Design Thinking</p>
+              </div>
+              <div class="right-text">
+                <p class="rightext">
+                  Understand customer needs and problem-solve creatively in order to meet them
+                </p>
+              </div>
+           </div>
+           <div class="program-container">
+              <div class="left-text">
+                <img class="leficon" src="./image/program_icon_05.png" alt="networking icon" />
+                <p class="leftext">Technologies to Re-Set & Scale-Up</p>
+              </div>
+              <div class="right-text">
+                <p class="rightext">
+                  Business Intelligence and Analytics· Employee Call-Off Hotline· 
+                  Artificial Intelligence· Cognitive Insights· Automation· Cognitive Engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="join">Join @The Royal Innovation Center LiveWorx 2023</button>
+          <a class="see-link" href="#">SEE THE WHOLE PROGRAM</a>
+        </div>
+      </section>
+      <!--featured speakers-->
+      <section class="spekers" id="speakers">
+        <br>
+        <br>
+        <div class="pro-heading speaktitle">
+          <h3 class="speaktext">Featured Speakers</h3>
+          <div class="underline-orange"></div>
+          <hr class="line" />
+        </div>
+        <div class="speakers-container" id="speakers-container"></div>
+        <button id="more-button" class="more-button">MORE
+          <img class="arro" src="./image/arrow_down.png" alt="arro down">
+        </button>
+      </section>
+
+      <!--patners-->
+      <section class="partners">
+        <div class="pro-heading">
+          <h3 class="pro-text patnerinfo">Partner</h3>
+          <div class="underline-orange"></div>
+          <hr class="line" />
+        </div>
+        <div class="patner-container">
+          <div class="patimage">
+            <img src="./image/citizen tv.png" alt="citizen icon" />
+          </div>
+          <div class="patimage">
+            <img src="./image/facebook.jpg" alt="facebook icon" />
+          </div>
+          <div class="patimage">
+            <img src="./image/ktn tv.webp" alt="ktn icon" />
+          </div>
+          <div class="patimage">
+            <img src="./image/linkedin.jpg" alt="linkedin icon" /></li>
+          </div>
+          <div class="patimage">
+            <img src="./image/googleimage.jpg" alt="google icon" /></li>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="fooer-container">
+      <div class="foter-image">
+        <img src="./image/mylogo.png" alt="@ the royal logo" />
+      </div>
+      <div class="fotext">
+        <p>
+          @THE ROYAL INNOVATION CENTER LiveWorx 2023. <br />
+          Some Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="home.js"></script>
+  </body>
+</html>
