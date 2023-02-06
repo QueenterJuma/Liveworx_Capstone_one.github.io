@@ -27,7 +27,7 @@ body {
   display: none;
 }
 
-/*navigation*/
+/* navigation */
 .toggl {
   margin: 25px;
 }
@@ -290,6 +290,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .more-button {
     display: none;
   }
@@ -364,7 +365,7 @@ body {
   font-weight: lighter;
 }
 
-/*patner*/
+/* patner */
 .partners {
   height: 40vh;
   background-color: rgb(39, 42, 50);
@@ -430,8 +431,12 @@ body {
     width: 100%;
     position: fixed;
     background-color: #fff;
-    box-shadow: -1px 1px #eaeaea, -2px 2px #eaeaea, -3px 3 px #eaeaea,
-      -4px 4px #eaeaea, -5px 5px #eaeaea;
+    /* box-shadow:
+      -1px 1px #eaeaea,
+      -2px 2px #eaeaea,
+      -3px 3 px #eaeaea,
+      -4px 4px #eaeaea,
+      -5px 5px #eaeaea; */
   }
 
   .top-nav {
@@ -453,8 +458,12 @@ body {
   }
 
   .top-item {
-    color: #fff;
-    font-size: 9px;
+    color: #d3d3d3;
+    font-size: 15px;
+  }
+
+  .faceb {
+    font-size: 20px;
   }
 
   .navimg {
@@ -470,16 +479,6 @@ body {
     justify-content: space-around;
     margin-top: 20px;
   }
-
-  /*.navmobile {
-    visibility: hidden;
-    display: flex;
-    height: 40px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-  }*/
 
   .navigation {
     display: flex;
@@ -512,7 +511,7 @@ body {
   }
 
   .logo {
-    visibility: visibility;
+    visibility: visible;
     display: flex;
     line-height: 1rem;
     width: 20px;
@@ -628,5 +627,4 @@ body {
     word-spacing: 2px;
     color: #eaeaea;
   }
-  
 }

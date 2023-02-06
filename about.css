@@ -16,6 +16,7 @@ body {
 
 .nav-bar {
   background-image: url(./image/mobile\ background.png);
+
   /* background-repeat: repeat-y; */
   background-size: contain;
   width: 100%;
@@ -46,6 +47,7 @@ body {
 .sub-item {
   text-decoration: none;
 }
+
 .logo {
   width: 100px;
 }
@@ -262,7 +264,6 @@ body {
 
 .memory1 {
   display: flex;
-
   background-image: url(./image/liveworkx\ 2019.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -377,8 +378,12 @@ body {
     width: 100%;
     position: fixed;
     background-color: #fff;
-    box-shadow: -1px 1px #eaeaea, -2px 2px #eaeaea, -3px 3 px #eaeaea,
-      -4px 4px #eaeaea, -5px 5px #eaeaea;
+    box-shadow:
+      -1px 1px #eaeaea,
+      -2px 2px #eaeaea,
+      -3px 3 px #eaeaea,
+      -4px 4px #eaeaea,
+      -5px 5px #eaeaea;
     top: 0;
     box-sizing: border-box;
   }
@@ -401,9 +406,13 @@ body {
     list-style: none;
   }
 
-  .top-item {
-    color: #fff;
-    font-size: 9px;
+   .top-item {
+    color: #d3d3d3;
+    font-size: 15px;
+  }
+
+  .faceb {
+    font-size: 20px;
   }
 
   .navimg {
