@@ -44,13 +44,13 @@ pe
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live](https://queenterjuma.github.io/Portfolio_one.github.io/)
+- [Live]( https://queenterjuma.github.io/Capstone_one.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📷 Video Description <a name="video-description"></a>
 
-- [Live](https://queenterjuma.github.io/Portfolio_one.github.io/)
+- [Live]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/QueenterJuma/Portfolio_one.github.io.git
+  git clone https://github.com/QueenterJuma/Capstone_one.github.io.git
 ```
 
 
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 ```
-git clone https://github.com/QueenterJuma/Portfolio_one.git
+git clone https://github.com/QueenterJuma/Capstone_one.github.io.git
 ```
 Navigate to the folder
 ```
