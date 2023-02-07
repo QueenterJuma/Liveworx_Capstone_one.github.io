@@ -16,11 +16,11 @@ body {
 
 .nav-bar {
   background-image: url(./image/mobile\ background.png);
-
-  /* background-repeat: repeat-y; */
   background-size: contain;
+  background-repeat: round;
   width: 100%;
-  height: 95vh;
+  height: auto;
+  margin-bottom: 5rem;
 }
 
 .desktop {
@@ -248,6 +248,10 @@ body {
   text-align: center;
 }
 
+.memory-info h3 {
+  font-size: 1.5rem;
+}
+
 .memory-text {
   font-size: 14px;
   line-height: 20px;
@@ -290,15 +294,15 @@ body {
 }
 
 .mem1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  color: #fff;
+  color: #d3d3d3;
   text-align: center;
 }
 
 .mem2 {
-  font-size: 13px;
-  color: #fff;
+  font-size: 17px;
+  color: #d3d3d3;
   text-align: center;
 }
 
@@ -378,12 +382,6 @@ body {
     width: 100%;
     position: fixed;
     background-color: #fff;
-    box-shadow:
-      -1px 1px #eaeaea,
-      -2px 2px #eaeaea,
-      -3px 3 px #eaeaea,
-      -4px 4px #eaeaea,
-      -5px 5px #eaeaea;
     top: 0;
     box-sizing: border-box;
   }
@@ -447,6 +445,10 @@ body {
     text-decoration: none;
     gap: 20px;
     align-items: center;
+  }
+
+  .abot {
+    color: #ec5242;
   }
 
   .nav-works {

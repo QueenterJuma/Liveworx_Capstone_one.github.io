@@ -20,7 +20,8 @@ body {
   background-size: contain;
   background-repeat: round;
   width: 100%;
-  height: 95vh;
+  height: auto;
+  margin-bottom: 5rem;
 }
 
 .desktop {
@@ -114,24 +115,26 @@ body {
 }
 
 .intro1 {
-  font-size: 20px;
+  font-size: 2rem;
   text-align: left;
+  margin-bottom: 1rem;
   color: #ec5242;
   font-weight: normal;
 }
 
 .intro2 {
   background-image: url(./image/header\ background.jpeg);
-  font-size: 30px;
+  font-size: 2.5rem;
   text-align: left;
   font-family: "COCOGOOSE", sans-serif;
   text-transform: uppercase;
   -webkit-background-clip: text;
   color: transparent;
+  margin-bottom: 2rem;
 }
 
 .text-summary {
-  height: 22vh;
+  height: auto;
   display: flex;
   width: auto;
   background-color: #f9f9f9;
@@ -150,20 +153,18 @@ body {
 }
 
 .vedate {
-  margin: 15px;
+  padding: 15px;
 }
 
 .date {
   font-family: "COCOGOOSE", sans-serif;
-  font-size: 25px;
+  font-size: 2rem;
   text-transform: uppercase;
-  margin-left: 15px;
 }
 
 .venue {
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
   gap: 10px;
   width: auto;
 }
@@ -195,7 +196,7 @@ body {
 }
 
 .pro-text {
-  color: #f5f5f5;
+  color: #d3d3d3;
   font-size: 25px;
   font-weight: bold;
 }
@@ -210,14 +211,16 @@ body {
 .procard {
   display: flex;
   flex-direction: column;
+  width: auto;
+  height: auto;
 }
 
 .program-container {
   display: flex;
-  height: 115px;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.1);
   margin: 10px;
-  gap: 50px;
+  gap: 5rem;
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
@@ -245,9 +248,9 @@ body {
 .rightext {
   display: flex;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 14px;
   justify-content: center;
-  color: #f9f9f9;
+  color: #d3d3d3;
 }
 
 .join {
@@ -276,6 +279,11 @@ body {
 
 .speaktext {
   font-size: 26px;
+}
+
+.speakers-container {
+  height: auto;
+  width: auto;
 }
 
 .speakers-container .speaker-details {
@@ -431,12 +439,6 @@ body {
     width: 100%;
     position: fixed;
     background-color: #fff;
-    /* box-shadow:
-      -1px 1px #eaeaea,
-      -2px 2px #eaeaea,
-      -3px 3 px #eaeaea,
-      -4px 4px #eaeaea,
-      -5px 5px #eaeaea; */
   }
 
   .top-nav {
@@ -500,6 +502,10 @@ body {
     align-items: center;
   }
 
+  .abot {
+    color: #ec5242;
+  }
+
   .nav-works {
     margin-right: 50px;
     width: 100px;
@@ -525,7 +531,6 @@ body {
 
   .nav-bar {
     background-image: url(./image/home-bg-desk.png);
-    height: 900px;
   }
 
   .intro-tittle {
@@ -566,7 +571,7 @@ body {
 
   .procard {
     width: 100%;
-    height: 250px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -576,20 +581,21 @@ body {
   .program-container {
     display: flex;
     flex-direction: column;
-    height: 270px;
-    width: 150px;
+    height: 255px;
+    width: 220px;
     margin: 1px;
     gap: 5px;
   }
 
   .design {
-    border: 2px solid #eaeaea;
+    border: 2px solid #d3d3d3;
   }
 
   .left-text {
     display: flex;
     flex-direction: column;
     width: auto;
+    height: 100px;
     justify-content: center;
     align-items: center;
     margin: 10px;
@@ -610,8 +616,8 @@ body {
 
   .rightext {
     text-align: center;
-    font-size: 11px;
-    line-height: 16px;
+    font-size: 13px;
+    line-height: 20px;
   }
 
   .join {
@@ -626,5 +632,8 @@ body {
     text-decoration: underline;
     word-spacing: 2px;
     color: #eaeaea;
+  }
+  .partners {
+    height: 25vh;
   }
 }
