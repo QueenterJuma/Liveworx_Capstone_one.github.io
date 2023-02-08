@@ -14,7 +14,9 @@ closeMobileMenu();
 const speakers = [
   {
     image: 'image/speaker1.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Stephanie Walter',
     position: 'Senior Project Lead, Team Member Experience, Marketing',
     company: 'The Chick-fil-A Together Fund',
@@ -22,7 +24,9 @@ const speakers = [
   },
   {
     image: 'image/speaker2.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Atila Fassina',
     position: 'Vice President of Design Innovation',
     company: 'PepsiCo',
@@ -30,7 +34,9 @@ const speakers = [
   },
   {
     image: 'image/speaker3.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Brad Frost',
     position: 'Innovation Lead, Design Strategist',
     company: 'Google',
@@ -38,7 +44,9 @@ const speakers = [
   },
   {
     image: 'image/speaker4.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Elliot Jay Stocks',
     position: 'Head of Ecosystem and Trend Scouting',
     company: 'Nokia',
@@ -46,7 +54,9 @@ const speakers = [
   },
   {
     image: 'image/speaker5.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Vitaly Friedman',
     position: 'Director Marketing & Talent Solutions',
     company: 'LinkedIn',
@@ -54,7 +64,9 @@ const speakers = [
   },
   {
     image: 'image/speaker6.jpg',
-    image_alt:'first speaker',
+    image_alt: 'first speaker',
+    image1: './image/speaker-back.png',
+    image1_alt: 'speaker checker',
     name: 'Remi Parmentier',
     position: 'Senior Design and Business Innovation Strategist',
     company: 'Blue Cross Blue Shield Innovation Lab',
@@ -72,7 +84,7 @@ function spks() {
         ).innerHTML += `<article class="speaker-details">
             <div class="thumbnail">
               <img class="spk-bck1" src="${speakers[i].image}" alt="${speakers[i].image_alt}" />
-               <img class="spk-bck" src="./image/speaker-back.png" alt="spk-bck"/>
+               <img class="spk-bck" src="${speakers[i].image1}" alt="${speakers[i].image1_alt}"/>
             </div>
             <div class="speakinfo">
               <div class="name">
@@ -96,10 +108,10 @@ function spks() {
         for (let i = 0; i < speakers.length; i += 1) {
           document.getElementById(
             'speakers-container',
-          ).innerHTML += `<div class="speaker-details">
+          ).innerHTML += `<article class="speaker-details">
             <div class="thumbnail">
               <img class="spk-bck1" src="${speakers[i].image}" alt="${speakers[i].image_alt}" />
-               <img class="spk-bck" src="./image/speaker-back.png" alt="spk-bck"/>
+               <img class="spk-bck" src="${speakers[i].image1}" alt="${speakers[i].image1_alt}"/>
             </div>
             <div class="speakinfo">
               <div class="name">
@@ -113,7 +125,7 @@ function spks() {
                 <p>${speakers[i].company}</p>
               </div>
             </div>
-          </div>`;
+          </article>`;
         }
         click = true;
       } else {
@@ -122,10 +134,10 @@ function spks() {
           if (i < 2) {
             document.getElementById(
               'speakers-container',
-            ).innerHTML += `<div class="speaker-details">
+            ).innerHTML += `<article class="speaker-details">
             <div class="thumbnail">
               <img class="spk-bck1" src="${speakers[i].image}" alt="${speakers[i].image_alt}" />
-               <img class="spk-bck" src="./image/speaker-back.png" alt="spk-bck"/>
+               <img class="spk-bck" src="${speakers[i].image1}" alt="${speakers[i].image1_alt}"/>
             </div>
             <div class="speakinfo">
               <div class="name">
@@ -139,7 +151,7 @@ function spks() {
                 <p>${speakers[i].company}</p>
               </div>
             </div>
-          </div>`;
+          </article>`;
           }
         }
         click = false;
@@ -150,10 +162,10 @@ function spks() {
     for (let i = 0; i < speakers.length; i += 1) {
       document.getElementById(
         'speakers-container',
-      ).innerHTML += `<div class="speaker-details">
+      ).innerHTML += `<article class="speaker-details">
             <div class="thumbnail">
               <img class="spk-bck1" src="${speakers[i].image}" alt="${speakers[i].image_alt}" />
-               <img class="spk-bck" src="./image/speaker-back.png" alt="spk-bck"/>
+               <img class="spk-bck" src="${speakers[i].image1}" alt="${speakers[i].image1_alt}"/>
             </div>
             <div class="speakinfo">
               <div class="name">
@@ -167,7 +179,7 @@ function spks() {
                 <p>${speakers[i].company}</p>
               </div>
             </div>
-          </div>`;
+          </article>`;
     }
   }
 }
