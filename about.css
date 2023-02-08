@@ -352,11 +352,11 @@ body {
 
 .fooer-container {
   display: flex;
-  gap: 50px;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   height: 17vh;
-  background-color: #d3d3d3;
+  background-color: #fff;
 }
 
 .foter-image {
@@ -445,6 +445,7 @@ body {
     text-decoration: none;
     gap: 20px;
     align-items: center;
+    margin-right: -94px;
   }
 
   .abot {
@@ -452,7 +453,6 @@ body {
   }
 
   .nav-works {
-    margin-right: 50px;
     width: 100px;
     height: 50px;
     font-size: 20px;
@@ -528,7 +528,7 @@ body {
 
   .fooer-container {
     display: flex;
-    gap: 50px;
+    gap: 3rem;
     align-items: center;
     justify-content: center;
     height: 17vh;
