@@ -79,7 +79,7 @@ git clone https://github.com/QueenterJuma/Capstone_one.github.io.git
 ```
 Navigate to the folder
 ```
-repo-name (Portfolio_one)
+repo-name (Capstone_one)
 ```
 Checkout the branch
 ```
