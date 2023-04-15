@@ -33,7 +33,7 @@
 
 
 # 📖 [Capstone_one] <a name="about-project"></a>
-pe
+
 **[Capstone_one]** The goal of this project is to create a UI Capstone project and use Flexbox to place elements on the page. Also, adding images and backgrounds to enhance the look of the website
 
 ## 🛠 Built With <a name="built-with"></a>
