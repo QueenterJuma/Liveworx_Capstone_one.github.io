@@ -44,7 +44,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live]( https://queenterjuma.github.io/Capstone_one.github.io/)
+- [Live](https://queenterjuma.github.io/Liveworx_Capstone_one.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
